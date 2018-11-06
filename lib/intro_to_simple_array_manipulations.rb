@@ -14,21 +14,11 @@ def using_pop(array)
   array.pop
 end
 
-#pop_with_args
+def pop_with_args(array, n)
+  array.pop(n)
+end
 
-#using_shift
-
-#shift_with_args
-  
-#using_concat
-
-#using_insert
-
-#using_uniq
-  
-#using_flatten
-  
-#using_delete
-  
-#using_delete_at
+def shift_with_args(array, n)
+  array.shift(n)
+end
 
