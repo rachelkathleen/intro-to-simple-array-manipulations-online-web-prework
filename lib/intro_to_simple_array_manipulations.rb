@@ -2,7 +2,8 @@ def using_shift(array)
   array.shift
 end
 
-#using_push
+def using_push(array, string)
+  array << string
 
 #using_unshift
 
